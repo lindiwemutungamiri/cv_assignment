@@ -1,0 +1,73 @@
+body{
+    background-color: lavenderblush;
+    font-family: Verdana;
+    font-size: medium;
+    border: 3px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    max-width: max-content;
+    
+    background: white;
+    
+}
+
+
+.grid{
+    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    display: grid;
+}
+
+h3{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+h4{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+h5{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+h6{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+
+}
+#Education{
+    font-weight: bold;
+}
+
+hr { 
+      height: 2px; 
+    background: black; 
+    
+} 
+
+header{
+    text-align: center;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    list-style-type: disc;
+    font-size: small;
+}
+p{
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+
